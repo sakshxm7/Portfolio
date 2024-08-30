@@ -1,0 +1,159 @@
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Moderustic:wght@300..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    
+}
+.banner{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 55px;
+    background-color: rgb(208, 255, 251);
+    transition:0.5s;
+}
+header{
+    position: absolute;
+    background:cyan;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border:0.75px solid #939292;
+}
+
+header ul{
+    display:flex;
+    gap:40px;
+
+}
+header ul li{
+    list-style: none;
+    transition: 0.5s;
+}
+header ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2em;
+    color:#333;
+    transition: 0.5s;
+}
+
+.content2{
+    position: relative;
+    padding-top: 5px;
+}
+
+.content2 h1{
+    font-size: 4.5em;
+    padding-top: 5px;
+    margin-top: 50px;
+    
+}
+.content2 span{
+    color:cyan;
+}
+.content2 h2{
+    font-size: 3em;
+
+}
+.co{
+    font-size: 1.3em;
+}
+.daynight{
+    position:fixed;
+    bottom:25px;
+    left:50%;
+    width:60px;
+    height:60px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition:0.5s;
+    font-size: 2em;
+}
+
+.daynight ion-icon:nth-child(2),
+.banner.night .daynight ion-icon:nth-child(1)
+{
+    display:none;
+}
+.banner.night .daynight ion-icon:nth-child(2){
+    display:block;
+}
+.banner.night{
+    background:#333;
+}
+.banner.night .daynight{
+    color:#939292;
+    background:#444;
+}
+table th,td{
+    font-size:1em;
+    border:1px solid #444;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+table{
+    font-size: 2em;
+
+    width:100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid #444;
+    margin-left:5px;
+}
+table td.sub_list{
+    align-content: center;
+}
+
+.banner.night .content h2,
+.banner.night .content h1,
+.banner.night .content p,
+.banner.night .content button.b2,
+.banner.night header ul li a{
+    color:beige;
+}
+.banner.night .content2 h1,
+.banner.night .content2 h2,
+.banner.night table th
+{
+    color:beige;
+}
+.banner.night .content2,
+.banner.night table td
+{
+    color:#FFF;
+}
+
+.banner.night header{
+    background:grey;
+    border-bottom:1px solid antiquewhite ;
+}
+.banner.night table,
+.banner.night td,
+.banner.night th
+{
+    border:1px solid #fff;
+}
+.main_list{
+    font-size: 2em;
+    list-style-type:disc;
+}
+.sub_list{
+    font-size: 0.7em;
+    margin-left:10px;
+    padding:10px;
+}

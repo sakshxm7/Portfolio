@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </header>
+        <div class="content2">
+            <h1>Welcome to my <span id="port"></span></h1>
+            <p class="co">My name is Saksham Bhardwaj, a final year Computer Science student at Chitkara University,
+                Baddi.
+                I am enthusiastic about using my strong analytical and technical skills to work on exciting projects and
+                adapt to the fast-changing tech world. I am looking to be part of a team that values creativity and
+                innovation, with the aim of making a positive impact in software/product development.
+            </p>
+            <h2>Here are my skills:</h2>
+
+            <table>
+                <tr>
+                    <th>Languages</th>
+                    <th>Frameworks</th>
+                    <th>Databases</th>
+                    <th>Relevant Coursework</th>
+                    <th>Soft Skills</th>
+
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="sub_list">
+                            <li>Java</li>
+                            <li>C/C++</li>
+                            <li>HTML, CSS, JavaScript</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="sub_list">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                        </ul>
+                    </td>
+                    <td>
+                        
+                        <ul class="sub_list">
+                            <li>Data Structures & Algorithms</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="sub_list">
+                            <li>MERN Stack</li>
+                            <li>Operating Systems</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Fundamentals of DBMS</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="sub_list">
+                            <li>Analytical Skills</li>
+                            <li>Strong Grammar</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </td>
+
+                </tr>
+            </table>
+            <br>
+            <h2>Relevant Projects:</h2>
+            <table>
+                <tr>
+                    <th>CampusGigs</th>
+                    <th>GameHub</th>
+                    <th>TempVerter</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="sub_list">
+
+                            <li><b>ReactJS, Bootstrap, Node.js, Express.js, MongoDB, JWT authentication, and Axios for
+                                    API integration</b></li>
+                            </li>
+                            <li>Developed a Job Application Portal with React.js and Node.js, featuring user
+                                authentication and
+                                job listing and application management.</li>
+                            <li>Implemented MongoDB for data storage and utilized Axios for API integration, ensuring
+                                scalability and efficient data handling through state management.</li>
+                            <li>Employed modern UI design and Backend controller and middleware functions and route
+                                handling, enhancing user experience and application performance.</li>
+
+                        </ul>
+
+                    </td>
+                    <td>
+                        <ul class="sub_list">
+                            <li><b>HTML, CSS, JavaScript</b></li>
+                            <li>3 nostalgic web-based games (Simon Game, Tic-Tac-Toe, Rock Paper Scissors).</li>
+                            <li>Designed a responsive and attractive user-interface while structured and implemented the gaming
+                                algorithm through JavaScript.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="sub_list">
+                            <li><b>HTML, CSS, JavaScript</b></li>
+                            <li>Streamlined web app converting temperatures (Celsius, Fahrenheit, Kelvin).</li>
+                           <li> Practical utility with a clean, user-friendly interface for broad accessibility and educational use.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="daynight">
+            <ion-icon name="moon-outline"></ion-icon>
+            <ion-icon name="sunny-outline"></ion-icon>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let portFx = new Typed("#port", {
+            strings: ["Portfolio!!", "Portfolio!!"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay: 1200,
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
